@@ -57,5 +57,5 @@ quantlake-internship/
   - Conditional statements: if, elif, else
   - Loops: for loop
 - Saved the notebook in the `training/` folder.
-- Committed and pushed the notebook to GitHub using Git.
+- Committed and pushed the notebook to GitHub using Git
 
