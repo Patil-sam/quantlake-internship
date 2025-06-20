@@ -59,3 +59,13 @@ quantlake-internship/
 - Saved the notebook in the `training/` folder.
 - Committed and pushed the notebook to GitHub using Git
 
+
+## 📅 Day 1 -Python structures + functions
+
+- Practiced data structures: `list`, `tuple`, `set`, `dict`
+- Explored methods and operations for each structure
+- Used list comprehensions and dictionary nesting/lookups
+- Wrote custom functions: factorial calculator, prime number checker
+- Used built-in modules: `math`, `random`, `datetime`
+- Learned and practiced error handling using `try`, `except`, `finally`
+- Solved mini problems: FizzBuzz, largest number in a list, reverse string, count vowels
