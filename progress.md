@@ -60,7 +60,7 @@ quantlake-internship/
 - Committed and pushed the notebook to GitHub using Git
 
 
-## 📅 Day 1 -Python structures + functions
+## 📅 Day 2 -Python structures + functions
 
 - Practiced data structures: `list`, `tuple`, `set`, `dict`
 - Explored methods and operations for each structure
