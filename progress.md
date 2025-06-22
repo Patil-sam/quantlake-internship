@@ -91,4 +91,4 @@ quantlake-internship/
   - `.mean()`, `.sum()`, `.min()`, `.max()`
 - Grouped data using `groupby()` to find average fare by class.
 
-**Status:** ✅ Completed
+**Status:** Completed
