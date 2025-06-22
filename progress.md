@@ -69,3 +69,26 @@ quantlake-internship/
 - Used built-in modules: `math`, `random`, `datetime`
 - Learned and practiced error handling using `try`, `except`, `finally`
 - Solved mini problems: FizzBuzz, largest number in a list, reverse string, count vowels
+
+
+## Day 3: Pandas Introduction
+
+**Notebook:** `day3_pandas_intro`
+
+**Topics Practiced:**
+- Created Series and DataFrame from scratch.
+- Used `.head()`, `.tail()`, `.shape`, `.columns`, `.index`, `.dtypes` to inspect structure.
+- Loaded Titanic dataset using `pd.read_csv()`.
+- Explored dataset using `.info()`, `.describe()`, `.isnull().sum()`.
+- Identified null values, data types, row and column count.
+- Accessed and filtered data using:
+  - `df['column']`, `df[['col1', 'col2']]`
+  - `df.loc[]`, `df.iloc[]`
+- Added new calculated columns like `FamilySize` and `FarePerPerson`.
+- Dropped a row using `df.drop()`.
+- Practiced built-in methods:
+  - `.sort_values()`, `.value_counts()`, `.unique()`
+  - `.mean()`, `.sum()`, `.min()`, `.max()`
+- Grouped data using `groupby()` to find average fare by class.
+
+**Status:** ✅ Completed
