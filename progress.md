@@ -92,3 +92,36 @@ quantlake-internship/
 - Grouped data using `groupby()` to find average fare by class.
 
 **Status:** Completed
+
+## 📅 Day 4: Data Manipulation 1 (`day4_data_manipulation_1`)
+
+### 🔹 Task 1: Indexing and Slicing
+- Loaded `Super_Store_Sales_data.csv` using `pd.read_csv()`.
+- Practiced:
+  - `df.loc[]` for label-based selection.
+  - `df.iloc[]` for index-based selection.
+  - Selecting full rows, specific columns, and conditional subsets (e.g., `df[df['Sales'] > 500]`).
+
+### 🔹 Task 2: Filtering & Sorting
+- Filtered data using boolean logic with `&`, `|`, and conditions on `Sales`, `Ship Date`, `Region`, etc.
+- Sorted data by `Sales`, `Profit`, and multiple columns like `['Category', 'Sales']`.
+
+### 🔹 Task 3: Handling Missing Data
+- Used `df.isnull().sum()` to find missing values.
+- Dropped missing rows using `df.dropna()`.
+- Created a DataFrame with `np.nan` values and practiced `fillna()` and inspection techniques.
+
+### 🔹 Task 4: GroupBy Operations
+- Used `groupby()` to calculate `mean()` on `Category`.
+- Performed aggregations on `Region` and `Sub-Category` with `agg(['sum', 'mean', 'count'])`.
+- Used `reset_index()` to clean up grouped results.
+
+### 🔹 Task 5: Merging DataFrames
+- Created `orders` and `customers` sample DataFrames.
+- Practiced merging using:
+  - `pd.merge(..., how='inner')`
+  - `pd.merge(..., how='left')`
+  - `pd.merge(..., how='outer')`
+
+Completed all data manipulation tasks for Day 4 using the Superstore dataset.
+
