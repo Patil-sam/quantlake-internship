@@ -125,3 +125,26 @@ quantlake-internship/
 
 Completed all data manipulation tasks for Day 4 using the Superstore dataset.
 
+
+# 📘 Progress Log
+
+## ✅ Task 1: Reshaping DataFrames
+- [x] Used `pivot_table()` to get total sales by Region and Category
+- [x] Used `pivot_table()` to calculate average profit per Segment
+- [x] Used `melt()` to convert wide to long format
+
+## ✅ Task 2: Apply Custom Functions
+- [x] Created `Sales_Margin` column using `.apply()` with lambda
+- [x] Flagged high discount rows using `.apply()` on `Sales`
+- [x] Flagged high sales rows using `.apply()` on `Sales`
+
+## ✅ Task 3: Mapping & Replacing
+- [x] Used `.map()` to convert Country to Country Code
+- [x] Used `.replace()` to rename "Consumer" to "Retail" in Segment
+
+## ✅ Task 4: Combining DataFrames
+- [x] Used `pd.concat()` vertically with `ignore_index=True`
+- [x] Used `pd.concat()` horizontally with `axis=1`
+- [x] Combined DataFrames with mismatched columns
+
+
