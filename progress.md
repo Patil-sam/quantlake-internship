@@ -148,3 +148,50 @@ Completed all data manipulation tasks for Day 4 using the Superstore dataset.
 - [x] Combined DataFrames with mismatched columns
 
 
+
+
+## 📊 Data Visualization Progress — Iris Dataset
+
+### ✅ Task 1: Matplotlib Basics
+- Imported `matplotlib.pyplot as plt`
+- Created:
+  - Line plot of Sepal Length across sample IDs
+  - Scatter plot of Sepal Length vs Petal Length
+- Saved figures with `plt.savefig()` using `dpi=300`
+
+### ✅ Task 2: Plot Customization
+- Added:
+  - Titles, X/Y-axis labels, legends
+  - Gridlines for better readability
+  - Axis limits and custom figure sizes
+- Improved overall layout and clarity
+
+### ✅ Task 3: Seaborn Introduction
+- Imported `seaborn as sns`
+- Created:
+  - Boxplot of Sepal Length by Species (outlier detection)
+  - Heatmap of correlation between all features
+  - Histogram of Petal Length with KDE
+- Used Seaborn styles for visual enhancement
+
+### ✅ Task 4: Sample Visualization Project
+- Chose Iris dataset for a mini project
+- Created multiple charts:
+  - Histogram: Petal Length distribution
+  - Line Plot: Sepal Length across sample IDs
+  - Boxplot: Petal Width by Species
+- Analyzed distributions and trends across species
+
+### ✅ Task 5: Produce Publish-Quality Figures
+- Refined the boxplot to publication standards:
+  - Used `dpi=300`, modern color palette (`Set2`)
+  - Applied `sns.set_theme()` for clean visuals
+  - Adjusted font sizes, layout, and removed spines using `sns.despine()`
+  - Exported as `iris_boxplot_published.png`
+
+---
+
+✅ **Status**: All 5 tasks completed  
+📁 **Dataset used**: Iris Dataset (`iris.csv`)  
+🖼️ **Figures saved in**: `*.png` files (300 DPI, ready for presentation/report)
+
