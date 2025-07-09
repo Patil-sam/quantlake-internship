@@ -195,3 +195,70 @@ Completed all data manipulation tasks for Day 4 using the Superstore dataset.
 📁 **Dataset used**: Iris Dataset (`iris.csv`)  
 🖼️ **Figures saved in**: `*.png` files (300 DPI, ready for presentation/report)
 
+
+
+# 📊 Day 7 SQL Intro – Progress Report
+
+## ✅ Database Used:
+**SQLite 3**  
+**Database file**: `chinook.db`  
+**Location**: E:\QuantLake
+
+## 📁 Files Submitted:
+- `day7_sql_intro.sql` – Contains all SQL queries for Tasks 1 to 5
+- `day7_sql_output.txt` – Contains query results (captured from SQLite prompt)
+
+## 🧠 Tasks Completed:
+
+### 🔹 Task 1: Understand Tables and Fields
+- Listed all tables using `.tables`
+- Inspected table structures using `PRAGMA table_info(...)` for:
+  - albums
+  - artists
+  - customers
+  - employees
+  - genres
+  - invoice_items
+  - invoices
+  - tracks
+
+### 🔹 Task 2: SELECT Queries
+- Viewed full customer table:  
+  `SELECT * FROM customers;`
+- Selected specific employee columns:  
+  `SELECT FirstName, LastName FROM employees;`
+
+### 🔹 Task 3: Filtering with WHERE
+- Invoices with Total > 10  
+  `SELECT * FROM invoices WHERE Total > 10;`
+- Customers from USA  
+  `SELECT * FROM customers WHERE Country = 'USA';`
+- Tracks with 'Rock' in Composer  
+  `SELECT * FROM tracks WHERE Composer LIKE '%Rock%';`
+
+### 🔹 Task 4: Sorting and Limiting
+- Top 5 invoices by amount  
+  `SELECT * FROM invoices ORDER BY Total DESC LIMIT 5;`
+- First 3 tracks alphabetically  
+  `SELECT * FROM tracks ORDER BY Name ASC LIMIT 3;`
+
+### 🔹 Task 5: Basic Aggregations
+- Total customers:  
+  `SELECT COUNT(*) FROM customers;`
+- Average invoice amount:  
+  `SELECT AVG(Total) FROM invoices;`
+- Sales by country:  
+  `SELECT BillingCountry, SUM(Total) FROM invoices GROUP BY BillingCountry ORDER BY SUM(Total) DESC;`
+
+## ⭐ 5 Interesting Queries:
+1. `SELECT FirstName, LastName FROM employees;`
+2. `SELECT * FROM customers WHERE Country = 'USA';`
+3. `SELECT * FROM invoices WHERE Total > 10;`
+4. `SELECT * FROM tracks WHERE Composer LIKE '%Rock%';`
+5. `SELECT BillingCountry, SUM(Total) FROM invoices GROUP BY BillingCountry ORDER BY SUM(Total) DESC;`
+
+## 📸 Screenshots:
+SQL outputs are saved in `day7_sql_output.txt`
+
+
+
