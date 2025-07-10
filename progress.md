@@ -372,3 +372,6 @@ tracks_df = pd.read_sql_query("SELECT TrackId, Name AS TrackName, GenreId FROM t
 merged_tracks_df = pd.merge(invoice_items_df, tracks_df, on='TrackId', how='inner')
 merged_tracks_df.head()
 
+
+
+
