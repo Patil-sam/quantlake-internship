@@ -365,6 +365,7 @@ merged_df = pd.merge(customers_df, invoices_df, on='CustomerId', how='inner')
 merged_df.head()
 
 Example 2: Merged invoice_items and tracks on TrackId:
+'''sql
 invoice_items_df = pd.read_sql_query("SELECT InvoiceLineId, InvoiceId, TrackId, UnitPrice, Quantity FROM invoice_items", conn)
 tracks_df = pd.read_sql_query("SELECT TrackId, Name AS TrackName, GenreId FROM tracks", conn)
 
