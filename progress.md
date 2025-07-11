@@ -373,16 +373,16 @@ merged_tracks_df = pd.merge(invoice_items_df, tracks_df, on='TrackId', how='inne
 merged_tracks_df.head()
 
 
-# 📈 Day 9 – SQL Business Queries and Analytics
+#  Day 9 – SQL Business Queries and Analytics
 
-## 📁 Files Added
+##  Files Added
 - `training/day9_queries.ipynb` – Completed all tasks involving multi-table joins, window functions, CTEs, and trend analysis
 
 ---
 
-## ✅ Tasks Completed
+##  Tasks Completed
 
-### 🔹 Task 1: Multi-table Join Analysis
+###  Task 1: Multi-table Join Analysis
 
 - Listed each customer with their total number of orders and total revenue.
 - Retrieved the top 5 highest spending customers along with their country.
@@ -398,21 +398,21 @@ merged_tracks_df.head()
 
 ---
 
-### 🔹 Task 3: Common Table Expressions (CTEs)
+###  Task 3: Common Table Expressions (CTEs)
 
 - Created a CTE to find customers with an average order value greater than ₹1000.
 - Used a CTE to filter orders from the last 3 months and aggregated their revenue.
 
 ---
 
-### 🔹 Task 4: Business Scenario – Sales Drop Analysis
+###  Task 4: Business Scenario – Sales Drop Analysis
 
 - Prepared a monthly sales trend table for each product (track).
 - Identified products with decreasing monthly sales over the last 3 months.
 
 ---
 
-## 📝 Summary
+##  Summary
 
 - Practiced advanced SQL techniques like joins, window functions, and CTEs.
 - Generated customer-level and product-level insights.
